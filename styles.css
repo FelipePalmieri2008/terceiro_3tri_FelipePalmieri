@@ -13,13 +13,14 @@ header {
 }
 
 nav ul {
-   list-style-type: none;
-   padding: 0;
+   list-style-type: none; /* Remove os pontos */
+   padding: 0; /* Remove o padding padrão */
+   margin: 0; /* Remove a margem padrão */
 }
 
 nav ul li {
-   display: inline;
-   margin: 0 15px;
+   display: inline; /* Exibe os itens na mesma linha */
+   margin: 0 15px; /* Margem entre os itens */
 }
 
 nav ul li a {
@@ -39,13 +40,10 @@ main {
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-   color: #2c3e50;
-}
-
 h1 {
-   font-size: 2em;
-   margin-bottom: 10px;
+   color: #2c3e50;
+   font-size: 2em; /* Tamanho do título */
+   margin-bottom: 20px; /* Espaço abaixo do título */
 }
 
 h2 {
@@ -68,15 +66,4 @@ ul {
 
 li {
    margin-bottom: 10px;
-}
-
-nav ul {
-   list-style-type: none; /* Remove os pontos */
-   padding: 0; /* Remove o padding padrão */
-   margin: 0; /* Remove a margem padrão */
-}
-
-nav ul li {
-   display: inline; /* Exibe os itens na mesma linha */
-   margin: 0 15px; /* Margem entre os itens */
 }
